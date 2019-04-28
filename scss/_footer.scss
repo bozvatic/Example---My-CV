@@ -1,0 +1,70 @@
+/* FOOTER */
+
+.bottom-text {
+  margin-top: 1rem;
+}
+
+/* Links */
+
+a {
+  font-weight: 800;
+}
+
+/* Shadow container */
+
+.sjena-container {
+  box-shadow: 0px 20px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Social media icons */
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  padding: 10px;
+}
+
+ul li a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  display: block;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: 1s;
+}
+
+ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+ul li a .fa {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: 1s;
+}
+
+ul li:nth-child(1) a:hover .fa {
+  color: #55acee;
+}
+
+ul li:nth-child(2) a:hover .fa {
+  color: #0077b5;
+}
+
+ul li:nth-child(3) a:hover .fa {
+  color: #dd4b39;
+}

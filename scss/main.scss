@@ -1,0 +1,39 @@
+@import 'navigation';
+@import 'main-content';
+@import 'bg-pictures';
+@import 'footer';
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+html,
+body {
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #b2c9ab;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 480px) {
+  ul li {
+    padding: 0 !important;
+  }
+  ul li a {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 3px;
+  }
+  ul li a .fa {
+    line-height: calc(30px - 6px);
+    font-size: 12px;
+  }
+  .bottom-text {
+    font-size: 0.9rem;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .subtitle {
+    font-size: 0.8rem;
+  }
+}

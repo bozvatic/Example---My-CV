@@ -1,0 +1,38 @@
+/* Pictures */
+
+.slika1,
+.slika2,
+.slika3,
+.slika4,
+.slika5,
+.slika6 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  max-width: 100%;
+}
+
+.slika1 {
+  background-image: url('/pictures/prva.jpg');
+}
+
+.slika2 {
+  background-image: url('/pictures/druga.jpg');
+}
+
+.slika3 {
+  background-image: url('/pictures/treca.jpg');
+}
+
+.slika4 {
+  background-image: url('/pictures/cetvrta.jpg');
+}
+
+.slika5 {
+  background-image: url('/pictures/peta.jpg');
+}
+
+.slika6 {
+  background-image: url('/pictures/sesta.jpg');
+}
